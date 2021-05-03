@@ -1,0 +1,12 @@
+.add {
+position: relative;
+}
+body{
+	background: #282c34;
+}
+.button {
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
