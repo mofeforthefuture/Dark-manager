@@ -1,34 +1,56 @@
-.App {
-  text-align: center;
+.btnss{
+	float: right;
+	margin-left: 10px;
+}
+.inputt{
+	width: 30vw !important;
+}
+.cardBody {
+	margin-top: 10px;
+}
+ .cardBody:hover{
+	 transform: scale(1.03);
+ }
+.text{
+	font-family: 'Pangolin', cursive;
+}
+.add-text{
+	font-family: 'Pangolin', cursive;
+width: 70px !important;
+margin-right: 0px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.add {
+	border-radius: 40% !important;
 }
+.add-icon{
+margin-bottom: 5vh !important;
+}
+.add-icon:hover, .text:hover{
+	transform: scale(1.1);
+}
+.Submit-btn{
+	background-color: black !important;
+	margin-left: 5px !important;
+}
+.example-enter {  
+  opacity: 0.01;  
+}  
+  
+.example-enter.example-enter-active {  
+  opacity: 1;  
+  transition: opacity 500ms ease-in;  
+}  
+  
+.example-leave {  
+  opacity: 1;  
+}  
+  
+.example-leave.example-leave-active {  
+  opacity: 0.01;  
+  transition: opacity 300ms ease-in;  
+}  
 
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(5px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-.card-text {
-	color: black;
-}
-.adds {
-	margin-bottom: 20px !important;
-	margin-top: 20px !important;
-
-}
-.inputs{
-	width: 50vw !important;
+.animate__animated.animate__bounce {
+  --animate-duration: 2s !important;
 }
